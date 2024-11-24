@@ -30,6 +30,6 @@ a {
   @apply text-purple-500;
 } */
 
-span {
+code {
   @apply bg-gray-800 p-0.5 rounded;
 }
