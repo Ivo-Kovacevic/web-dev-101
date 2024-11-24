@@ -6,6 +6,9 @@ export const Route = createFileRoute("/")({
 });
 
 function RouteComponent() {
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <section>
