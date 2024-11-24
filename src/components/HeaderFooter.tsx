@@ -7,7 +7,7 @@ type Main = {
 export default function HeaderFooter({ children }: Main) {
   return (
     <main className="flex flex-col items-center">
-      <header className="text-6xl p-4 max-w-[700px] w-full">
+      <header className="text-4xl md:text-6xl p-4 max-w-[700px] w-full border-b-2 border-b-gray-200">
         <Link to="/" className="no-underline text-white">
           Kako započeti s web developmentom
         </Link>
