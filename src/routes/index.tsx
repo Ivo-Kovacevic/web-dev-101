@@ -11,7 +11,7 @@ function RouteComponent() {
   }, []);
   return (
     <>
-      <div className="flex items-center">
+      <div className="flex items-center mt-4">
         <svg
           width="20px"
           height="20px"
