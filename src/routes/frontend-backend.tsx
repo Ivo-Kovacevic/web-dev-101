@@ -1,5 +1,6 @@
 import * as React from "react";
 import { createFileRoute, Link } from "@tanstack/react-router";
+import RateSection from "../components/RateSection";
 
 export const Route = createFileRoute("/frontend-backend")({
   component: RouteComponent,
@@ -116,7 +117,7 @@ function RouteComponent() {
           </li>
         </ul>
         <p>
-          Za detaljnije razumijevanje API-ja, pročitajte
+          Za detaljnije razumijevanje API-ja, pročitajte{" "}
           <a href="https://www.postman.com/api-platform/" target="_blank" rel="noopener noreferrer">
             Postman vodič za API-je
           </a>
@@ -154,6 +155,7 @@ function RouteComponent() {
           Naprijed
         </Link>
       </div>
+      <RateSection />
     </>
   );
 }

@@ -1,6 +1,7 @@
 import * as React from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { Link } from "@tanstack/react-router";
+import RateSection from "../components/RateSection";
 
 export const Route = createFileRoute("/git-github")({
   component: RouteComponent,
@@ -59,7 +60,7 @@ function RouteComponent() {
         </p>
         <ul className="list-disc pl-8">
           <li>
-            <strong>Kolaboracije u timu</strong> – Više programera može raditi na istom projektu
+            <strong>Suradnja u timu</strong> – Više programera može raditi na istom projektu
             koristeći "pull requestove" i recenzije koda.
           </li>
           <li>
@@ -113,7 +114,7 @@ function RouteComponent() {
         <p>Git i GitHub su neprocjenjivi alati zbog:</p>
         <ul className="list-disc pl-8">
           <li>
-            <strong>Kolaboracije</strong> – Omogućuju timovima da zajedno rade na istom projektu,
+            <strong>Suradnja</strong> – Omogućuju timovima da zajedno rade na istom projektu,
             bez straha od prepisivanja promjena.
           </li>
           <li>
@@ -159,6 +160,7 @@ function RouteComponent() {
           Naprijed
         </Link>
       </div>
+      <RateSection />
     </>
   );
 }

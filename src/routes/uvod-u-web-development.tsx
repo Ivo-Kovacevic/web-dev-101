@@ -1,5 +1,6 @@
 import * as React from "react";
 import { createFileRoute, Link } from "@tanstack/react-router";
+import RateSection from "../components/RateSection";
 
 export const Route = createFileRoute("/uvod-u-web-development")({
   component: RouteComponent,
@@ -67,6 +68,7 @@ function RouteComponent() {
           Naprijed
         </Link>
       </div>
+      <RateSection />
     </>
   );
 }
